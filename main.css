@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Six Caps', sans-serif;
+}
+.button {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.graphic:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.graphic {
+    visibility:hidden;
+    opacity:0;
+    background-color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    position: relative;
+    width: 95vw;
+    height: 300px;
+
+}
+
+svg {
+    height: auto;
+    width: inherit;
+}

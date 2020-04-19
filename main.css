@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Six Caps', sans-serif;
 }
+
 .button {
     border-radius: 50%;
     height: 80px;
@@ -22,8 +23,8 @@
 }
 
 .graphic {
-    visibility:hidden;
-    opacity:0;
+    visibility: hidden;
+    opacity: 0;
     background-color: white;
     font-family: 'Krona One', sans-serif;
     font-size: 40px;
@@ -33,7 +34,26 @@
 
 }
 
+#sp,
+#zoom {
+    animation:dasharray 100s linear infinite;
+    opacity: 0;
+    stroke-dasharray: 10px;
+            stroke-dashoffset:400px; 
+
+}
+
 svg {
     height: auto;
     width: inherit;
+}
+
+@keyframes dasharray {
+    from {
+        stroke-dasharray: 0;
+    }
+
+    to {
+        stroke-dasharray: 8000;
+    }
 }

@@ -3,6 +3,28 @@
     font-family: 'Six Caps', sans-serif;
 }
 
+#introduction {
+    z-index: -500;
+    text-align-last: center;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 300px;
+    ;
+}
+header{
+    position:relative;
+}
+
+nav {
+position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 500;
+}
+
+span {
+    font-size: 100px;
+}
+
 .button {
     border-radius: 50%;
     height: 80px;
@@ -23,7 +45,7 @@
 }
 
 .graphic {
-    visibility: hidden;
+    /*    visibility: hidden;*/
     opacity: 0;
     background-color: white;
     font-family: 'Krona One', sans-serif;
@@ -36,10 +58,10 @@
 
 #sp,
 #zoom {
-    animation:dasharray 100s linear infinite;
+    animation: dasharray 100s linear infinite;
     opacity: 0;
     stroke-dasharray: 10px;
-            stroke-dashoffset:400px; 
+    stroke-dashoffset: 400px;
 
 }
 
